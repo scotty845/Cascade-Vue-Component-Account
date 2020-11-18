@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<style>
+
+.descr {
+  font-weight: bold;
+}
+
+.process-fail {
+    font-weight: bold;
+	color: red
+}
+.process-success {
+    font-weight: bold;
+	color: green
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
+  <meta charset="utf-8">
+  <title>Cascade Account Balance </title>
+  
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  
+</head>
+
+  <body>
+    
+	
+	<div class="container" id="app"><!--Start main html display container-->
+      
+	  <h3 class="text-center">Cascade Account Transactions</h3>
+
+	  <div id="enable-vue-here">
+	
+			<!--VUE running balance component-->
+			<div class="components-demo">
+			<running-balance></running-balance>
+			</div>
+			<!--VUE running balance component-->
+		</div>
+
+	  
+    </div><!--End main html display container-->
+	
+	
+	<!--scripts to load VUE for rendering and usage-->
+    <script src="https://unpkg.com/vue"></script>
+	
+	
+	<!--script to VUE Component in JavaScript and .js file for usage in html-->
+	<script src="vueDisplayAccount.js"></script>
+	 
+	
+	
+  </body>
+</html>
